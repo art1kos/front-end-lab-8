@@ -1,0 +1,125 @@
+@mixin brief($width,$padding,$margin,$float,$background,$color){
+	width: $width;
+	padding: $padding;
+	margin: $margin;
+	float: $float;
+	background-color: $background;
+	color: $color;
+}
+
+
+body{
+	background: $bodyBackground;
+	#content {
+		width: $width;
+		margin: $margin;
+		padding: $padding;
+	  	background: $contentBackground;
+	  		h1{
+				color: $colorHeading;
+				text-align: $headingTextAlign;
+			}
+	  		h2{
+	  			color: $colorHeading;
+			}
+			p{
+				color: $pColor;
+			}
+			img{
+				border-style: solid;
+				border-color:$borderColor;
+				border-width: $imgBorder;
+				padding: $imgPadding;
+				&.img-left{
+					float: $floatLeft;
+					margin: $marginLeft; 
+				    
+				}
+				&.img-right{
+					float: $floatRight; 
+					margin: $marginRight;
+				}
+			}
+			.brief{
+				box-sizing: border-box;
+				@include brief($briefWidth,$briefPadding,$briefMargin, $briefFloat,$briefBackground,$briefTextColor);
+			}
+			a{
+				 color: $linksColor;
+			}
+			caption{
+				text-align: $textAlign;
+				color: $captionColor;
+			}
+			table {
+				border-collapse: $borderCollapse;
+				th{
+					text-align: $thTextAlign;
+					text-transform: $tableRegister;
+					padding: $thpadding;
+					background-color: $thBackground;
+					border-right:$thBorder;
+					&:last-of-type{
+						border-right:$thLast;
+					}
+
+				}
+
+				tr{
+					text-align: left;
+				}
+				td{
+				color: $pColor;
+				padding: $tdPadding;
+				border-bottom: $tdBorder;
+				background-color: $tableTdBackground;
+				}
+					
+			}
+			.first{
+		  		margin-right: $inputMargin;
+		  		float: $inputFloat;  				
+		  		width: $inputWidthFirst;
+		  	}
+		  	.second{
+		  		float: $inputFloat;
+		  		width: $inputWidthSecond;
+		  				
+		  	}
+			input[type=text] {
+			    width: $formWidth;
+			    margin: $marginForm;
+
+			}
+			input[type=email] {
+			    width: $formWidth;
+			    margin: $marginForm;  
+			}
+			textarea{
+				width: $formWidth;
+				max-width: $formWidth;
+			    height: $textareaheight;
+			    margin: $marginForm;
+			}
+			label{
+				color: $labelColor;
+				text-transform: $labelRegister;
+			}
+			input[type=button] {
+			    background-color: $buttonBg ;
+			    border: $buttonBorder;
+			    color: $buttonColor;
+			    width: $buttonWidth;
+			    padding: $buttonPadding ;
+			    text-decoration: $buttonText;
+			    margin: $buttonMargin;
+			    text-transform: $buttonRegister;
+			    font-size: $buttonFont;
+			    cursor: $buttonCursor;
+
+			}
+
+			
+			
+	}
+}  		

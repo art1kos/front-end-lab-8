@@ -1,0 +1,97 @@
+//content
+$bodyBackground: #dcbb9a;
+$contentColor: #000000;
+$width: 960px;
+$margin: 0 auto;
+$padding: 15px;
+$contentBackground: #ffffff;
+
+//heading
+$colorHeading:#893c00;
+$headingTextAlign: center;
+
+//p
+$pColor:#000;
+
+//images
+$borderColor: #893c00;
+$imgBorder: 2px;
+$imgPadding: 2px;
+
+// images left
+$floatLeft: left;
+$marginLeft: 0 15px 0 0;
+
+// images right
+$floatRight: right;
+$marginRight: 0 0 0 15px;
+
+// brief
+$briefWidth: 380px;
+$briefPadding: 18px 10px 22px 20px;
+$briefMargin: 0 15px 0 0;
+$briefFloat: left;
+$briefBackground: #fadcba;
+$briefTextColor: #000000;
+
+//a
+$linksColor: #3d70a1;
+
+// caption
+$textAlign: right;
+$captionColor: $briefTextColor;
+
+
+//table
+$borderCollapse: collapse;
+$tableRegister: uppercase;
+$thTextAlign: left;
+
+
+//th
+$thpadding: 10px;
+$thTextAlign: left;
+$thBackground: #e0e0e0;
+$thBorder: 1px solid #fff;
+$thLast:none;
+
+// td
+$tableTdBackground: $contentBackground;
+$tdBorder: 1px solid $thBackground;
+$tdPadding: 10px 20px;
+
+
+//form
+$formWidth : 100%;
+$marginForm : 8px 0;
+
+//textarea
+$textareaheight: 150px;
+
+//label
+$labelColor:#808080;
+$labelRegister : $tableRegister;
+
+//button
+$buttonBg : #fff;
+$buttonColor: #3d70a1;
+$buttonBorder : 2px solid $buttonColor;
+$buttonWidth : 30%;
+$buttonPadding : 16px 32px;
+$buttonText: none;
+$buttonMargin : 15px 0 0 0;
+$buttonRegister:$labelRegister;
+$buttonFont: 18px;
+$buttonCursor: pointer;
+
+
+
+
+//input .first
+$inputFloat:left;
+$inputWidthFirst: 49%;
+
+
+//input .second
+$inputMargin:1%;
+$inputWidthSecond: 50%;
