@@ -1,0 +1,84 @@
+body {
+  background: #dcbb9a; }
+  body #content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #ffffff; }
+    body #content h1 {
+      color: #893c00;
+      text-align: center; }
+    body #content h2 {
+      color: #893c00; }
+    body #content p {
+      color: #000; }
+    body #content img {
+      border-style: solid;
+      border-color: #893c00;
+      border-width: 2px;
+      padding: 2px; }
+      body #content img.img-left {
+        float: left;
+        margin: 0 15px 0 0; }
+      body #content img.img-right {
+        float: right;
+        margin: 0 0 0 15px; }
+    body #content .brief {
+      box-sizing: border-box;
+      width: 380px;
+      padding: 18px 10px 22px 20px;
+      margin: 0 15px 0 0;
+      float: left;
+      background-color: #fadcba;
+      color: #000000; }
+    body #content a {
+      color: #3d70a1; }
+    body #content caption {
+      text-align: right;
+      color: #000000; }
+    body #content table {
+      border-collapse: collapse; }
+      body #content table th {
+        text-align: left;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: #e0e0e0; }
+      body #content table tr {
+        text-align: left; }
+      body #content table td {
+        color: #000;
+        padding: 10px 20px;
+        border-bottom: 1px solid #e0e0e0;
+        background-color: #ffffff; }
+    body #content .first {
+      margin-right: 1%;
+      float: left;
+      width: 49%; }
+    body #content .second {
+      float: left;
+      width: 50%; }
+    body #content input[type=text] {
+      width: 100%;
+      margin: 8px 0; }
+    body #content input[type=email] {
+      width: 100%;
+      margin: 8px 0; }
+    body #content textarea {
+      width: 100%;
+      max-width: 100%;
+      height: 150px;
+      margin: 8px 0; }
+    body #content label {
+      color: #808080;
+      text-transform: uppercase; }
+    body #content input[type=button] {
+      background-color: #fff;
+      border: 2px solid #3d70a1;
+      color: #3d70a1;
+      width: 30%;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 15px 0 0 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      cursor: pointer; }
