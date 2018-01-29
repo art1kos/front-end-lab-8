@@ -1,0 +1,87 @@
+body {
+  background: rgba(198, 238, 252, 0.53); }
+  body #content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #3b3b3b; }
+    body #content h1 {
+      color: #FCCD10;
+      text-align: center; }
+    body #content h2 {
+      color: #FCCD10; }
+    body #content p {
+      color: #fff; }
+    body #content img {
+      border-style: solid;
+      border-color: #FCCD10;
+      border-width: 2px;
+      padding: 2px; }
+      body #content img.img-left {
+        float: left;
+        margin: 0 15px 0 0; }
+      body #content img.img-right {
+        float: right;
+        margin: 0 0 0 15px; }
+    body #content .brief {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 18px 10px 22px 20px;
+      margin: 0 15px 15px 0;
+      float: left;
+      background-color: #fff178;
+      color: #000000; }
+    body #content a {
+      color: #FCCD10; }
+    body #content caption {
+      text-align: right;
+      color: #000000; }
+    body #content table {
+      border-collapse: collapse; }
+      body #content table th {
+        text-align: left;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: #94a34e;
+        border-right: 1px solid #fff; }
+        body #content table th:last-of-type {
+          border-right: none; }
+      body #content table tr {
+        text-align: left; }
+      body #content table td {
+        color: #fff;
+        padding: 10px 20px;
+        border-bottom: 1px solid #94a34e;
+        background-color: #677D01; }
+    body #content .first {
+      margin-right: 1%;
+      float: left;
+      width: 49%; }
+    body #content .second {
+      float: left;
+      width: 50%; }
+    body #content input[type=text] {
+      width: 100%;
+      margin: 8px 0; }
+    body #content input[type=email] {
+      width: 100%;
+      margin: 8px 0; }
+    body #content textarea {
+      width: 100%;
+      max-width: 100%;
+      height: 150px;
+      margin: 8px 0; }
+    body #content label {
+      color: #f5c70f;
+      text-transform: uppercase; }
+    body #content input[type=button] {
+      background-color: #3b3b3b;
+      border: 2px solid #f5c70f;
+      color: #f5c70f;
+      width: 30%;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 15px 0 0 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      cursor: pointer; }
