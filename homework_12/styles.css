@@ -1,0 +1,221 @@
+/* Your styles goes here */
+
+#title{
+	color: #A19E86;
+}
+h1, h2, h3, a{
+	color: #A19E86;
+	padding: 0;
+	margin:0;
+}
+body{
+	background-color: #1C1C1F;
+	font-family:  'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+#root{
+	display: block;
+}
+#tank1{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+p{
+	color: #A19E86;
+	text-align: center;
+}
+
+#tank1 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank1:hover{
+	background-color: #2C2C2C;
+}
+
+#tank2{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank2 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank2:hover{
+	background-color: #2C2C2C;
+}
+
+#tank3{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank3 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank3:hover{
+	background-color: #2C2C2C;
+}
+
+#tank4{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank4 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank4:hover{
+	background-color: #2C2C2C;
+}
+
+#tank5{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank5 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank5:hover{
+	background-color: #2C2C2C;
+}
+
+#tank6{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank6 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank6:hover{
+	background-color: #2C2C2C;
+}
+
+#tank7{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank7 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank7:hover{
+	background-color: #2C2C2C;
+}
+#tank8{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+#tank8 img.pre{
+	height: 150px;
+	width: 200px; 
+	margin: auto;	
+}
+#tank8:hover{
+	background-color: #2C2C2C;
+}
+
+#characteristicTankObject{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankObject{
+	float:left;
+	margin-top: 10px;
+}
+table{
+	margin-top: 40px;
+	width: 55%;
+	border-collapse: collapse;
+	color:#A19E86;
+}
+
+td, th{
+	border:1px solid #A19E86;
+	padding: 10px
+
+}
+#backList{
+	color: #A19E86;
+	text-decoration: none;
+
+}
+
+#characteristicTankT62{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankT62{
+	float:left;
+	margin-top: 10px;
+}
+
+#characteristicTankE100{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankE100{
+	float:left;
+	margin-top: 10px;
+}
+
+#characteristicTankMaus{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankMaus{
+	float:left;
+	margin-top: 10px;
+}
+
+#characteristicTankT110{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankT110{
+	float:left;
+	margin-top: 10px;
+}
+
+#characteristicTankT57{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankT57{
+	float:left;
+	margin-top: 10px;
+}
+
+#characteristicTankFv{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankFv{
+	float:left;
+	margin-top: 10px;
+}
+#characteristicTankConqueror{
+	margin-top: 10px;
+	margin-bottom: 230px; 
+}
+#previewTankConqueror{
+	float:left;
+	margin-top: 10px;
+}
